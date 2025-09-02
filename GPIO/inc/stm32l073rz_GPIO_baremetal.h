@@ -10,6 +10,7 @@
  *   - Pure CMSIS / register access (no HAL/LL).
  *   - Same API as the STM32F401 version (drop-in compatible).
  *   - On STM32L0, GPIO clocks are gated via RCC->IOPENR.
+ * @author Salvatore Diana, email: sdiana517@gmail.com
  */
 
 #ifndef INC_STM32L073RZ_GPIO_BAREMETAL_H_
@@ -73,3 +74,4 @@ void bm_gpio_port_all_analog_except(GPIO_TypeDef *port, uint16_t keep_mask);
 
 
 #endif /* INC_STM32L073RZ_GPIO_BAREMETAL_H_ */
+
